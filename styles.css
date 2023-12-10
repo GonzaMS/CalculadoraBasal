@@ -39,6 +39,10 @@ body {
     margin-top: 15px;
 }
 
+#multiplicador{
+    text-color:red;
+}
+
 .contenido {
     position: relative;
     top: 50%;
