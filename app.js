@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     //Mostramos el resultado en los parrafos
-    diario.innerHTML = `<p> ${fluidoRequerido}cc Volumen diario</p>`;
+    diario.innerHTML = `<p> ${fluidoRequerido} cc Volumen diario</p>`;
     flu.innerHTML = `<p> ${flujoHorario} cc/hr</p>`;
     man.innerHTML = `<p> m+m/2 ${flujoMantenimiento} cc/hr</p>`;
     metodo.innerHTML = `<p> Metodo Holliday-Segar</p>`;
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     flujoMantenimiento = Math.round(flujoHorario * 1.5);
 
     //Mostramos el resultado en el parrafo
-    diario.innerHTML = `<p> ${fluidoRequerido}cc Volumen diario</p>`;
+    diario.innerHTML = `<p> ${fluidoRequerido} cc Volumen diario</p>`;
     flu.innerHTML = `<p> ${flujoHorario} cc/hr</p>`;
     man.innerHTML = `<p> m+m/2 ${flujoMantenimiento} cc/hr</p>`;
     metodo.innerHTML = `<p>Metodo superficie corporal</p>`;
