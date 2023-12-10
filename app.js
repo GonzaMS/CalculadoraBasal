@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       flu.innerHTML = "";
       man.innerHTML = "";
       metodo.innerHTML = "";
-      diario.innterHTML ="";
+      diario.innerHTML ="";
       error.style.display = "block";
       return;
     } else {
