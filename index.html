@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Basal</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js"></script>
 </head>
 
 <body>
 
-     <div id="contenedor">
+    <div id="contenedor">
         <div id="calculadora">
             <div class="contenido">
                 <h1>Hidratación Basal</h1>
                 <p class="item">Completa todos los datos</p>
                 <input class="item" id="peso" type="number" placeholder="Peso en kg" />
                 <p class="item" id="error">* Debe completar todos los datos</p>
+                <div class="mult">
+                    <p class="item-mult" id="multiplicador"> Ingrese el multiplicador para peso mayor a 30</p>
+                    <select name="item-mult" id="seleccionarMultiplicador">
+                        <option value="1500">1500</option>
+                        <option value="2000">2000</option>
+                    </select>
+                </div>
                 <button class="item" id="calcular">Calcular</button>
+                <p class="item resultado" id="diario"></p>
                 <p class="item resultado" id="flu"></p>
                 <p class="item resultado" id="man"></p>
+                <p class="item resultado" id="metodo"></p>
             </div>
         </div>
 
@@ -33,6 +43,8 @@
                 </ul>
             </div>
         </div>
+    </div>
+
     </div>
 
     </div>
